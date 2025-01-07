@@ -17,8 +17,8 @@ rust-version = "1.84.0"
 version = "0.1.0"
 
 [dependencies]
-twilight-model = { default-features = false, optional = true, git = "https://github.com/swrge/randy-model", version = "0.1.0" }
-twilight-validate = { default-features = false, optional = true, git = "https://github.com/swrge/randy-validate", version = "0.1.0" }
+twilight-model = { default-features = false, optional = true, git = "https://github.com/swrge/randy-model", version = "0.1.0", package = "randy-tools" }
+twilight-validate = { default-features = false, optional = true, git = "https://github.com/swrge/randy-validate", version = "0.1.0", package = "randy-validate" }
 
 [dev-dependencies]
 chrono = { default-features = false, features = ["std"], version = "0.4" }
