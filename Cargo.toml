@@ -1,15 +1,19 @@
+[workspace]
+resolver = "2"
+
 [package]
-authors.workspace = true
+authors = ["swrge"]
 description = "Miscellaneous utilities for Twilight."
-edition.workspace = true
+edition = "2021"
 homepage = "https://twilight.rs"
-include.workspace = true
+include = ["/src"]
 keywords = ["discord", "discord-api", "twilight"]
-license.workspace = true
+license = "MIT"
 name = "randy-tools"
 publish = true
 repository = "https://github.com/swrge/randy-tools"
-rust-version.workspace = true
+rust-version = "1.84.0"
+
 version = "0.1.0"
 
 [dependencies]
